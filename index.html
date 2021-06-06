@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-primary">
+        <a class="navbar-brand" href="#">Calculator</a>
+    </nav>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="m-auto text-center">
+                <h3>Solar Calculator</h3><br>
+                <div class="whole-body">
+                    <div class="screen">
+                        <h2 id="result">0</h2>
+                    </div>
+                    <div class="cal-body m-auto text-center">
+                        <button class="btn btn-primary" onclick="pushBtn(this)">AC</button><br>
+                        <button class="btn btn-primary" onclick="pushBtn(this)">7</button>
+                        <button class="btn btn-primary" onclick="pushBtn(this)">8</button>
+                        <button class="btn btn-primary" onclick="pushBtn(this)">9</button>
+                        <button class="btn btn-primary" onclick="pushBtn(this)">/</button><br>
+                        <button class="btn btn-primary" onclick="pushBtn(this)">4</button>
+                        <button class="btn btn-primary" onclick="pushBtn(this)">5</button>
+                        <button class="btn btn-primary" onclick="pushBtn(this)">6</button>
+                        <button class="btn btn-primary" onclick="pushBtn(this)">*</button><br>
+                        <button class="btn btn-primary" onclick="pushBtn(this)">1</button>
+                        <button class="btn btn-primary" onclick="pushBtn(this)">2</button>
+                        <button class="btn btn-primary" onclick="pushBtn(this)">3</button>
+                        <button class="btn btn-primary" onclick="pushBtn(this)">-</button><br>
+                        <button class="btn btn-primary" onclick="pushBtn(this)">0</button>
+                        <button class="btn btn-primary" onclick="pushBtn(this)">.</button>
+                        <button class="btn btn-primary" onclick="pushBtn(this)">+</button>
+                        <button class="btn btn-primary" onclick="pushBtn(this)">=</button><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+</html>
